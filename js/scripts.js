@@ -19,28 +19,31 @@ var result5 = "Ruby";
 
 // front-end logic //
 $(document).ready(function() {
-  $("form#inputform").submit(function(event) {
+  // $("form#inputform").submit(function(event) {
+  //   event.preventDefault();
+  //
+  //   if (input1 === "option1") {
+  //     if (input1 === "option2" && input2 === "option1" && input3 === "option2" && input4 === "option2" && input5 === "option1") {
+  //       $("#answer").text(result5);
+  //       $("#nameanswer").text(name);
+  //
+  //       } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option2") {
+  //         $("#answer").text(result2);
+  //
+  //       } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option1") {
+  //         $("#answer").text(result3);
+  //
+  //       } else if (input1 === "option2" && input2 === "option1" && input3 === "option1" && input4 === "option1" && input5 === "option2") {
+  //         $("#answer").text(result4);
+  //       } else if (input1 === "option2" && input2 === "option1" && input3 === "option2" && input4 === "option2" && input5 === "option1") {
+  //         $("#answer").text(result5);
+  //       }
+  //     } else {
+  //     $("#answer").show(result1);
+  //   }
+  //
+  // });
+  $("form#name-input").submit(function(event) {
     event.preventDefault();
-
-    if (input1 === "option1") {
-      if (input1 === "option2" && input2 === "option1" && input3 === "option2" && input4 === "option2" && input5 === "option1") {
-        $("#answer").text(result5);
-        $("#nameanswer").text(name);
-
-        } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option2") {
-          $("#answer").text(result2);
-
-        } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option1") {
-          $("#answer").text(result3);
-
-        } else if (input1 === "option2" && input2 === "option1" && input3 === "option1" && input4 === "option1" && input5 === "option2") {
-          $("#answer").text(result4);
-        } else if (input1 === "option2" && input2 === "option1" && input3 === "option2" && input4 === "option2" && input5 === "option1") {
-          $("#answer").text(result5);
-        }
-      } else {
-      $("#answer").show(result1);
-    }
-
-  });
+      $("#nameanswer").text(name);
 });

@@ -18,7 +18,7 @@ img {
   font-size: 14pt;
   font-weight: 600;
 }
-#name-input {
+#nameinput {
   max-width: 25%;
   font-size: 14pt;
 }
@@ -27,15 +27,16 @@ img {
   max-width: 75%;
 }
 #button {
-  margin: 20px;
   font-size: 14pt;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 #result-group {
   margin: 25px;
   line-height: 2;
   font-size: 14pt;
   width: 65%;
-  display: none;
+  /*display: none;*/
 }
 #result1 {
   /*display: none;*/
