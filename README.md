@@ -9,6 +9,9 @@ This website takes user input (perceived user preferences such as front-end/back
 * _Clone the repository from Github._
 * _Open the index.html file in your browser._
 
+## Known Bugs
+* _jQuery does not run, working on a solution._
+
 ## Technology Used
 * _HTML_
 * _CSS_

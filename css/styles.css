@@ -13,6 +13,7 @@ img {
   max-width: 450px;
   max-height: 350px;
   float: right;
+  border-radius: 100px;
 }
 #promptparagraph {
   font-size: 14pt;
@@ -31,28 +32,12 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-#result-group {
+#result {
   margin: 25px;
   line-height: 2;
   font-size: 14pt;
-  width: 65%;
-  /*display: none;*/
-}
-#result1 {
-  /*display: none;*/
-}
-#result2 {
-  /*display: none;*/
-}
-#result3 {
-  /*display: none;*/
-}
-#result4 {
-  /*display: none;*/
-}
-#result5 {
   /*display: none;*/
 }
 #answer {
-  /*font-weight: bold;*/
+  font-weight: bold;
 }
