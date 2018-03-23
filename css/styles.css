@@ -1,5 +1,42 @@
-#result {
-  /*display: none;*/
-  margin-left: 25px;
+#promptparagraph {
+  font-size: 14pt;
+  font-weight: 600;
+}
+#result-group {
+  margin: 25px;
+  line-height: 2;
+  font-size: 14pt;
   width: 65%
+}
+#result1 {
+  /*display: none;*/
+}
+#result2 {
+  /*display: none;*/
+}
+#result3 {
+  /*display: none;*/
+}
+#result4 {
+  /*display: none;*/
+}
+#result5 {
+  /*display: none;*/
+}
+#answer {
+  font-weight: bold;
+
+}
+#button {
+  margin: 20px;
+}
+h1 {
+  font-weight: 400;
+  font-family: sans-serif;
+  font: helvetica neue;
+  padding-top: 10px;
+
+}
+.form-group {
+  margin: 10px;
 }
