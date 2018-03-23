@@ -1,12 +1,36 @@
+h1 {
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #088da5;
+  background-size: cover;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+img {
+  max-width: 450px;
+  max-height: 350px;
+  float: right;
+}
 #promptparagraph {
   font-size: 14pt;
   font-weight: 600;
+}
+.form-group {
+  margin: 10px;
+  max-width: 75%;
+}
+#button {
+  margin: 20px;
 }
 #result-group {
   margin: 25px;
   line-height: 2;
   font-size: 14pt;
-  width: 65%
+  width: 65%;
+  /*display: none;*/
 }
 #result1 {
   /*display: none;*/
@@ -25,18 +49,4 @@
 }
 #answer {
   font-weight: bold;
-
-}
-#button {
-  margin: 20px;
-}
-h1 {
-  font-weight: 400;
-  font-family: sans-serif;
-  font: helvetica neue;
-  padding-top: 10px;
-
-}
-.form-group {
-  margin: 10px;
 }
