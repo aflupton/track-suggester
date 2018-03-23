@@ -18,19 +18,24 @@ img {
   font-size: 14pt;
   font-weight: 600;
 }
+#name-input {
+  max-width: 25%;
+  font-size: 14pt;
+}
 .form-group {
   margin: 10px;
   max-width: 75%;
 }
 #button {
   margin: 20px;
+  font-size: 14pt;
 }
 #result-group {
   margin: 25px;
   line-height: 2;
   font-size: 14pt;
   width: 65%;
-  /*display: none;*/
+  display: none;
 }
 #result1 {
   /*display: none;*/
@@ -48,5 +53,5 @@ img {
   /*display: none;*/
 }
 #answer {
-  font-weight: bold;
+  /*font-weight: bold;*/
 }

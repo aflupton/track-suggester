@@ -23,127 +23,116 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <form class="form-inline">
-            <label class="sr-only" for="inlineFormInput">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="name-input" placeholder="Name">
-          </form>
-          <fieldset class="form-group" >
-          <form id="question1">
-            <legend>Do you want to work on <em>front-end</em> or <em>back-end</em> development?</legend>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back2" value="option1">
-                Select this option if you're obsessed with design and UI and want to work on <strong>front-end</strong> development.
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back1" value="option2">
-                Select this option if you're more interested in how websites work, and want to work on <strong>back-end</strong> development.
-              </label>
-            </div>
-
-          </form>
-          </fieldset>
-          <fieldset class="form-group" id="question2">
-          <form>
-            <legend>Do you want to work on <em>web applications</em> or <em>desktop</em> applications?</legend>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not1" value="option1">
-                Select this option if you want to work on <strong>web applications</strong>.
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not2" value="option2">
-                Select this option if you want to work on <strong>desktop applications</strong>.
-              </label>
-            </div>
-          </form>
-          </fieldset>
-          <fieldset class="form-group" id="question3">
-          <form>
-            <legend>Do you want to work for a <em>large, established</em> company or for a <em>startup</em>?</legend>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small1" value="option1">
-                Select this option if you want to work for an <strong>established</strong> company.
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small2" value="option2">
-                Select this option if you want to work for a <strong>startup</strong>.
-              </label>
-            </div>
-          </form>
-          </fieldset>
-          <fieldset class="form-group" id="question4">
-          <form>
-            <legend>Do you want to work for the <em>government</em> or for <em>enterprise</em> companies?</legend>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz1" value="option1">
-                Select this option if you want to work for the <strong>government</strong>.
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz2" value="option2">
-                Select this option if you want to work for private <strong>enterprise</strong>.
-              </label>
-            </div>
-          </form>
-          </fieldset>
-          <!-- <fieldset class="form-group" id="question5"> -->
-          <form>
-            <legend>Do you want to work on <em>interactive web applications</em> or on <em>internal or marketing</em> websites?</legend>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int1" value="option1">
-                Select this option if you want to work on <strong> web apps</strong> with lots of interaction with the user base.
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int2" value="option2">
-                Select this option if you want to work on <strong>internal or marketing website</strong> development.
-              </label>
-            </div>
-          </form>
-          <!-- </fieldset> -->
-          <button type="submit" class="btn btn-info btn-md" id="button">Which programming language is right for me</button>
-        </form>
+            <form id="inputform">
+              <button type="submit" class="btn btn-info btn-md" id="button">Which programming language is right for me</button>
+              <!-- <form class="form-inline"> -->
+                <label class="sr-only" for="inlineFormInput">Name</label>
+                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="name-input" placeholder="Name">
+              <!-- </form> -->
+              <form id="question1">
+                <legend>Do you want to work on <em>front-end</em> or <em>back-end</em> development?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back1" value="option1">
+                    Select this option if you're obsessed with design and UI and want to work on <strong>front-end</strong> development.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back1" value="option2">
+                    Select this option if you're more interested in how websites work, and want to work on <strong>back-end</strong> development.
+                  </label>
+                </div>
+              </form>
+              <form id="question2">
+                <legend>Do you want to work on <em>web applications</em> or <em>desktop</em> applications?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not1" value="option1">
+                    Select this option if you want to work on <strong>web applications</strong>.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not2" value="option2">
+                    Select this option if you want to work on <strong>desktop applications</strong>.
+                  </label>
+                </div>
+              </form>
+              <form id="question3">
+                <legend>Do you want to work for a <em>large, established</em> company or for a <em>startup</em>?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small1" value="option1">
+                    Select this option if you want to work for an <strong>established</strong> company.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small2" value="option2">
+                    Select this option if you want to work for a <strong>startup</strong>.
+                  </label>
+                </div>
+              </form>
+              <form id="question4">
+                <legend>Do you want to work for the <em>government</em> or for <em>enterprise</em> companies?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz1" value="option1">
+                    Select this option if you want to work for the <strong>government</strong>.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz2" value="option2">
+                    Select this option if you want to work for private <strong>enterprise</strong>.
+                  </label>
+                </div>
+              </form>
+              <form id="question5">
+                <legend>Do you want to work on <em>interactive web applications</em> or on <em>internal or marketing</em> websites?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int1" value="option1">
+                    Select this option if you want to work on <strong> web apps</strong> with lots of interaction with the user base.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int2" value="option2">
+                    Select this option if you want to work on <strong>internal or marketing website</strong> development.
+                  </label>
+                </div>
+              </form>
+            </form>
         </div>
-      <!-- <div class="row">
-        <div class="col-md-6"> -->
-        <div class="form-group" id="result-group">
-          <div id="result1">
-            <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer"></span>.</h4>
-                <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
-          </div>
-          <div id="result2">
-            <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">C#</span>.</h4>
-                <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
-          </div>
-          <div id="result3">
-            <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">Java</span>.</h4>
-                <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
-          </div>
-          <div id="result4">
-            <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">PHP</span>.</h4>
-                <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
-          </div>
-          <div id="result5">
-            <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">Ruby</span>.</h4>
-                <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
-          </div>
-          </form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group" id="result-group">
+            <div id="result1">
+              <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer"></span>.</h4>
+                  <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
+            </div>
+            <div id="result2">
+              <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">C#</span>.</h4>
+                  <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
+            </div>
+            <div id="result3">
+              <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">Java</span>.</h4>
+                  <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
+            </div>
+            <div id="result4">
+              <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">PHP</span>.</h4>
+                  <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
+            </div>
+            <div id="result5">
+              <h4><span id="nameanswer"></span>, based on your answers to the survey, we've determined <br>that you should take a class in <span id="answer">Ruby</span>.</h4>
+                  <p>If this doesn't seem right, don't worry it's only a silly internet survey!</p>
+            </div>
         </div>
 
-        <!-- </div>
-      </div> -->
+        </div>
+      </div>
     </div>
   </body>
 </html>
