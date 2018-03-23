@@ -24,21 +24,21 @@
       <div class="row">
         <div class="col-md-10">
             <form id="inputform">
-              <form class="form-inline">
+              <form class="form-inline" id="nameinput">
                 <label class="sr-only" for="inlineFormInput">Name</label>
-                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="nameinput" placeholder="Name">
+                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="name" placeholder="Name">
               </form>
               <form id="question1">
                 <legend>Do you want to work on <em>front-end</em> or <em>back-end</em> development?</legend>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back1" value="option1">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="frontend" value="1">
                     Select this option if you're obsessed with design and UI and want to work on <strong>front-end</strong> development.
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="front-or-back1" value="option2">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="backend" value="2">
                     Select this option if you're more interested in how websites work, and want to work on <strong>back-end</strong> development.
                   </label>
                 </div>
@@ -47,13 +47,13 @@
                 <legend>Do you want to work on <em>web applications</em> or <em>desktop</em> applications?</legend>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not1" value="option1">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="web" value="3">
                     Select this option if you want to work on <strong>web applications</strong>.
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="web-or-not2" value="option2">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="desktop" value="4">
                     Select this option if you want to work on <strong>desktop applications</strong>.
                   </label>
                 </div>
@@ -62,13 +62,13 @@
                 <legend>Do you want to work for a <em>large, established</em> company or for a <em>startup</em>?</legend>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small1" value="option1">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="large" value="5">
                     Select this option if you want to work for an <strong>established</strong> company.
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="large-or-small2" value="option2">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="small" value="6">
                     Select this option if you want to work for a <strong>startup</strong>.
                   </label>
                 </div>
@@ -77,14 +77,14 @@
                 <legend>Do you want to work for the <em>government</em> or for <em>enterprise</em> companies?</legend>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz1" value="option1">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="gov" value="7">
                     Select this option if you want to work for the <strong>government</strong>.
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="gov-or-biz2" value="option2">
-                    Select this option if you want to work for private <strong>enterprise</strong>.
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="enterprise" value="8">
+                    Select this option if you want to work for <strong>private enterprise</strong>.
                   </label>
                 </div>
               </form>
@@ -92,13 +92,13 @@
                 <legend>Do you want to work on <em>interactive web applications</em> or on <em>internal or marketing</em> websites?</legend>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int1" value="option1">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="ext" value="9">
                     Select this option if you want to work on <strong> web apps</strong> with lots of interaction with the user base.
                   </label>
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="ext-or-int2" value="option2">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="int" value="10">
                     Select this option if you want to work on <strong>internal or marketing website</strong> development.
                   </label>
                 </div>

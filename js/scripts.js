@@ -1,52 +1,56 @@
 // back-end logic //
+// This section is incomplete //
+var input1 = $("form#question1").val();
+var input2 = $("form#question2").val();
+var input3 = $("form#question3").val();
+var input4 = $("form#question4").val();
+var input5 = $("form#question5").val();
 
+var result1 = "CSS and Design";
+var result2 = "C#";
+var result3 = "Java";
+var result4 = "PHP";
+var result5 = "Ruby";
+
+var name = ("input#name").val()
 // front-end logic //
+
 $(document).ready(function() {
-  $("form#inputform").submit(function(event) {
+  $("button").click(function(event) {
     event.preventDefault();
-alert("hi")
-    var input1 = $("input#front-or-back1").val();
-    var input2 = $("input#front-or-back2").val();
-    var input3 = $("input#web-or-not1").val();
-    var input4 = $("input#web-or-not2").val();
-    var input5 = $("input#large-or-small1").val();
-    var input6 = $("input#large-or-small2").val();
-    var input7 = $("input#biz-or-gov1").val();
-    var input8 = $("input#biz-or-gov2").val();
-    var input9 = $("input#ext-or-int1").val();
-    var input10 = $("input#ext-or-int2").val();
 
-    var result1 = "CSS and Design";
-    var result2 = "C#";
-    var result3 = "Java";
-    var result4 = "PHP";
-    var result5 = "Ruby"
-
-    var name = ("input#nameinput");
-
-    if (input1 === "option1") {
-      if (input1 === "option2" && input2 === "option1" && input3 === "option2" && input4 === "option2" && input5 === "option1") {
+    if (input1 === "2") {
+      } else if (input1 === "2" && input2 === "3" && input3 === "6" && input4 === "8" && input5 === "9") {
         $("#answer").text(result5);
-        $("result").show();
+        $("#result").show();
         $("#nameoutput").text(name);
+        alert("3")
 
-        } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option2") {
+      } else if (input1 === "2" && input2 === "4" && input3 === "5" && input4 === "8" && input5 === "10") {
           $("#answer").text(result2);
-          $("result").show();
+          $("#result").show();
           $("#nameoutput").text(name);
+          // alert("4")
 
-        } else if (input1 === "option2" && input2 === "option2" && input3 === "option1" && input4 === "option2" && input5 === "option1") {
+      } else if (input1 === "2" && input2 === "2" && input3 === "5" && input4 === "8" && input5 === "9") {
           $("#answer").text(result3);
-          $("result").show();
+          $("#result").show();
           $("#nameoutput").text(name);
+          alert("5")
 
-        } else if (input1 === "option2" && input2 === "option1" && input3 === "option1" && input4 === "option1" && input5 === "option2") {
+      } else if (input1 === "2" && input2 === "3" && input3 === "5" && input4 === "7" && input5 === "10") {
           $("#answer").text(result4);
-          $("result").show();
+          $("#result").show();
           $("#nameoutput").text(name);
-    } else {
+          // alert("6")
+
+      } else {
       $("#result").show();
       $("#answer").text(result1);
       }
+      // alert("7")
+      $("#result").show();
+      $("#nameoutput").text(name);
+
   });
 });
