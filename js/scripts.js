@@ -12,7 +12,7 @@ var result3 = "Java";
 var result4 = "PHP";
 var result5 = "Ruby";
 
-var name = ("input#name").val()
+var name = $("input#name").val();
 // front-end logic //
 
 $(document).ready(function() {
