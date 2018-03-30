@@ -20,12 +20,8 @@ img {
   font-weight: 600;
 }
 #name {
-  max-width: 25%;
+  max-width: 30%;
   font-size: 14pt;
-}
-.form-group {
-  margin: 10px;
-  max-width: 75%;
 }
 #button {
   font-size: 14pt;
@@ -40,4 +36,8 @@ img {
 }
 #answer {
   font-weight: bold;
+}
+#note {
+  font-style: italic;
+  font-size: 14pt;
 }
